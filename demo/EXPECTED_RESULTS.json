@@ -1,0 +1,194 @@
+[
+  {
+    "file": "01_UPLOAD_SENTINEL_TEST.txt",
+    "thin": false,
+    "total": 12,
+    "findings": [
+      {
+        "id": "F-01",
+        "type": "C",
+        "title": "Which measurable result would justify shipping, and which result would block release?",
+        "lines": [
+          1
+        ],
+        "score": null
+      },
+      {
+        "id": "F-02",
+        "type": "C",
+        "title": "What evidence establishes that the input data is fit for the proposed use?",
+        "lines": [
+          7
+        ],
+        "score": null
+      },
+      {
+        "id": "F-03",
+        "type": "C",
+        "title": "What measured load and latency envelope must the system support?",
+        "lines": [
+          5
+        ],
+        "score": null
+      },
+      {
+        "id": "F-04",
+        "type": "C",
+        "title": "What happens to the critical workflow when an external dependency is unavailable?",
+        "lines": [
+          10
+        ],
+        "score": null
+      },
+      {
+        "id": "F-05",
+        "type": "C",
+        "title": "Who authorizes this data use, and what retention and deletion rules apply?",
+        "lines": [
+          7
+        ],
+        "score": null
+      },
+      {
+        "id": "F-06",
+        "type": "C",
+        "title": "Who responds when the released system produces a wrong result outside working hours?",
+        "lines": [
+          1
+        ],
+        "score": null
+      },
+      {
+        "id": "F-07",
+        "type": "C",
+        "title": "How is a partial or incorrect execution detected and reversed?",
+        "lines": [
+          9
+        ],
+        "score": null
+      },
+      {
+        "id": "F-08",
+        "type": "C",
+        "title": "What is the affordable cost per successful outcome at the intended volume?",
+        "lines": [
+          10
+        ],
+        "score": null
+      },
+      {
+        "id": "F-09",
+        "type": "A",
+        "title": "Automated decisions appear to depend on unverified output quality",
+        "lines": [
+          9
+        ],
+        "score": null
+      },
+      {
+        "id": "F-10",
+        "type": "B",
+        "title": "Unresolved placeholders remain in the supplied materials",
+        "lines": [
+          18,
+          19
+        ],
+        "score": null
+      },
+      {
+        "id": "F-11",
+        "type": "D",
+        "title": "Conflicting launch date declarations require reconciliation",
+        "lines": [
+          16,
+          23
+        ],
+        "score": null
+      },
+      {
+        "id": "F-12",
+        "type": "D",
+        "title": "Conflicting budget declarations require reconciliation",
+        "lines": [
+          17,
+          24
+        ],
+        "score": null
+      }
+    ],
+    "coverage": [
+      {
+        "name": "Data",
+        "state": "Review needed"
+      },
+      {
+        "name": "Scale & performance",
+        "state": "Review needed"
+      },
+      {
+        "name": "Dependencies",
+        "state": "Review needed"
+      },
+      {
+        "name": "Legal & ethics",
+        "state": "Review needed"
+      },
+      {
+        "name": "People & operations",
+        "state": "Review needed"
+      },
+      {
+        "name": "Failure & recovery",
+        "state": "Review needed"
+      },
+      {
+        "name": "Economics",
+        "state": "Review needed"
+      },
+      {
+        "name": "Success & measurement",
+        "state": "Review needed"
+      }
+    ]
+  },
+  {
+    "file": "02_OPTIONAL_REVISED_PLAN.txt",
+    "thin": false,
+    "total": 0,
+    "findings": [],
+    "coverage": [
+      {
+        "name": "Data",
+        "state": "Mention found"
+      },
+      {
+        "name": "Scale & performance",
+        "state": "Mention found"
+      },
+      {
+        "name": "Dependencies",
+        "state": "Mention found"
+      },
+      {
+        "name": "Legal & ethics",
+        "state": "Mention found"
+      },
+      {
+        "name": "People & operations",
+        "state": "Mention found"
+      },
+      {
+        "name": "Failure & recovery",
+        "state": "Mention found"
+      },
+      {
+        "name": "Economics",
+        "state": "Mention found"
+      },
+      {
+        "name": "Success & measurement",
+        "state": "Mention found"
+      }
+    ]
+  }
+]

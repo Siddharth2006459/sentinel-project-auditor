@@ -1,0 +1,23 @@
+Project: CampusDesk - revised university IT support routing pilot
+Synthetic demonstration materials. This companion illustrates recognized controls; it is not proof that they have been implemented.
+
+Objective: Reduce ticket-routing time for the same campus IT pilot.
+Inputs: A CSV dataset of fictional customer data and email addresses from departmental exports.
+Output: An automated routing decision proposes a support queue for each ticket.
+Workflow: Read ticket -> external model API -> human review -> write approved team assignment.
+Target: 4,000 users during the pilot. The application uses cloud hosting and paid inference.
+Launch date: 2026-11-24
+Budget: INR 30,000/month
+Project owner: Demo Product Lead
+Support owner: Demo Operations Lead
+The revised plan supersedes both earlier summaries for the same release and campus.
+
+Data quality: The data owner documents provenance, a shared category schema, required fields, and record-level validation before importing each department's export.
+Performance: A load test will replay representative registration-week traffic and measure p95 latency and errors before release approval.
+Dependencies: The integration owner will test API timeout behavior, vendor rate limits, and a fallback manual queue.
+Privacy: The data owner will approve consent requirements and a retention and deletion policy before processing real records.
+Operations: The support owner maintains an on-call roster and a runbook with escalation contacts for evenings and weekends.
+Recovery: The technical lead will rehearse rollback and restoration; idempotency keys prevent duplicate team assignments on retries.
+Economics: The budget owner will measure cost per successful routing outcome and apply a budget cap before increasing volume.
+Acceptance criteria: The product owner will approve a baseline and precision target using an owner-labeled evaluation set; human review remains an approval gate until those criteria are met.
+The reviewers will record the result of each exercise, link its evidence, and sign the release decision before production deployment.

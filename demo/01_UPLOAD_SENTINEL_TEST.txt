@@ -1,0 +1,26 @@
+Project: CampusDesk - university IT support routing pilot
+Synthetic demonstration materials. All people, dates, volumes and budgets below are fictional.
+
+Objective: Reduce the time required to route student and staff support tickets to the right IT team.
+The pilot covers password-reset requests, classroom equipment faults, network access issues, and software installation requests. It runs for one campus before any wider rollout.
+
+Inputs: A CSV dataset of historical tickets containing customer data, email addresses, issue descriptions, and previous team assignments.
+The dataset was assembled from exports supplied by several departments. Departments use different category names, and their ticket histories cover different academic terms.
+Output: An automated routing decision assigns each incoming ticket to a support queue immediately.
+Workflow: Read incoming ticket -> call external model API -> write team assignment -> send a notification to the assigned queue.
+The model is provided by a third-party vendor. The application will use cloud hosting and paid inference for each ticket.
+Target: 4,000 users at launch, with traffic expected to increase during registration week.
+The team intends to deploy to production after a short demonstration with department coordinators. Pilot results are not attached to these materials.
+
+CURRENT LAUNCH CHECKLIST - CampusDesk pilot, same campus and release
+Launch date: 2026-11-10
+Budget: INR 15,000/month
+Project owner: TBD
+Support owner: TBD
+The team describes success as faster routing and fewer complaints. Ticket assignments will be processed throughout the day, including evenings and weekends.
+
+CURRENT PROCUREMENT SUMMARY - CampusDesk pilot, same campus and release
+Launch date: 2026-11-24
+Budget: INR 30,000/month
+Both summaries are marked current. The team has not selected which date and budget govern the pilot.
+Department coordinators will demonstrate common ticket examples during the launch presentation. The development team expects to make later adjustments based on feedback from users.
